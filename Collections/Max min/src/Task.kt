@@ -4,6 +4,6 @@ fun Shop.getCustomerWithMaxOrders(): Customer? =
 
 // Return the most expensive product that has been ordered by the given customer
 fun getMostExpensiveProductBy(customer: Customer): Product? =
-        customer.orders.flatMap (Order.product)
+        customer.orders.flatMap (Order::products)
                 .maxBy (Product::price)
 
