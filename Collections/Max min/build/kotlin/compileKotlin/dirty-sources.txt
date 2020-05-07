@@ -1,0 +1,2 @@
+/Users/onoayumu/Kotlin Koans/Collections/Max min/src/Shop.kt
+/Users/onoayumu/Kotlin Koans/Collections/Max min/src/Task.kt

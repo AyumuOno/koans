@@ -1,0 +1,1 @@
+/Users/onoayumu/Kotlin Koans/Introduction/Lambdas/src/Task.kt

@@ -1,0 +1,1 @@
+/Users/onoayumu/Kotlin Koans/Classes/Sealed classes/src/Task.kt
