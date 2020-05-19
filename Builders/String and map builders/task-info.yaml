@@ -17,7 +17,7 @@ files:
           map.build()
           return map
       }
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     import java.util.HashMap
