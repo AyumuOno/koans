@@ -22,7 +22,7 @@ files:
       offset: 112
     initialized_from_dependency: false
     possible_answer: this % 2 != 0
-    selected: false
+    selected: true
     status: Solved
   text: |
     fun task(): List<Boolean> {

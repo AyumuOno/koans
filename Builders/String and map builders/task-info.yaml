@@ -4,8 +4,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 26
-    length: 10
+  - offset: 27
+    length: 138
     placeholder_text: /* TODO */
     initial_state:
       length: 10
@@ -18,7 +18,7 @@ files:
           return map
       }
     selected: true
-    status: Unchecked
+    status: Solved
   text: |
     import java.util.HashMap
 
@@ -50,5 +50,5 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
