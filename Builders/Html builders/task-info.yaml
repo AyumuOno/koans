@@ -58,17 +58,17 @@ files:
   visible: true
   placeholders:
   - offset: 83
-    length: 10
+    length: 17
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 83
     initialized_from_dependency: false
     possible_answer: (color = getTitleColor())
-    selected: false
+    selected: true
     status: Unchecked
-  - offset: 389
-    length: 6
+  - offset: 396
+    length: 20
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -88,7 +88,7 @@ files:
                           }
                       }
                   }
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     fun renderProductTable(): String {

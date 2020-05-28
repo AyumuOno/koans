@@ -22,6 +22,11 @@ class TestExtensionsOnCollections {
         doTest(listOf("a", "c"), listOf("a", "bb", "c", "dd"))
     }
 
+    @Test(timeout = 1000)
+    fun testNull() {
+        doTest(null, listOf())
+    }
+
     private fun doTest(expected: Collection<String>?, argument: Collection<String>) {
         Assert.assertEquals(
                 "Wrong result for 'doSomethingStrangeWithCollection()' call on " +
